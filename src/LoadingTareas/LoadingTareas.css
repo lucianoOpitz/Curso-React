@@ -1,0 +1,49 @@
+.tarea-load{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    padding: 10px;
+    align-items: center;
+    font-weight: bold;
+    background-position-x: 0vw;
+    background: linear-gradient(125deg, rgba(255, 255, 255, 0.1)20%, rgb(255, 255, 255, 0.1), rgba(8, 53, 199, 0.623)80%);
+    background-size: 400% 400%;
+    border-radius: 60px;
+}
+.btn-emptys{
+    width: 50px;
+    height: 50px;
+    background: linear-gradient(125deg, rgba(255, 255, 255, 0.1)20%, rgb(255, 255, 255, 0.1), rgba(8, 53, 199, 0.623)80%);
+    border-radius: 100%;
+    background-size: 400% 400%;
+}
+@media (prefers-reduced-motion: no-preference) {
+    .tarea-load {
+      animation: tarea-load infinite 2s linear;
+    }
+    .btn-emptys{
+        animation: btn-emptys infinite 2s linear;
+    }
+}
+@keyframes btn-emptys {
+    0% {
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+}
+@keyframes tarea-load {
+    0% {
+        background-position: 100% 50%;
+    }
+    50%{
+        background-position: 50% 0%;
+    }
+    100%{
+        background-position: 100% 50%;
+    }
+}

@@ -1,0 +1,9 @@
+#search-tarea{
+    padding: 10px;
+    border-radius: 20px;
+    border: groove 3px rgb(164, 167, 1);
+    width: 70vw;
+}
+#search-tarea:focus{
+    outline-color: rgb(0, 68, 255);
+}

@@ -1,0 +1,42 @@
+.form-new-tarea{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: calc(100vw - 40px);
+    margin:0px;
+    border-top-left-radius: 20px;
+    background: linear-gradient(180deg, rgb(1, 153, 145) 10%, rgb(2, 74, 133));
+    bottom: -300px;
+    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+}
+.form-new-tarea--active{
+    bottom:0px
+}
+.label-new-tarea{
+    font-size: large;
+    font-weight: bold;
+}
+.input-new-tarea{
+    margin: 10px;
+    width: 50vmin;
+    padding: 15px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+    border-color: yellow;
+    outline-color: rgb(0, 68, 255);
+}
+.btn-add-tarea{
+    margin: 10px;
+    width: 25vmin;
+    padding-block: 10px;
+    border-radius: 20px;
+    background: radial-gradient(rgb(16, 114, 3) 20%, rgb(51, 255, 0));
+    color: white;
+    font-weight: bold;
+    border-color: white;
+}

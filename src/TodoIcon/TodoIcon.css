@@ -1,0 +1,32 @@
+
+.icon{
+    padding: 5px;
+    border: groove 2px white;
+    border-radius: 100%;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  .icon-check:hover{
+    background: rgb(36, 173, 36);
+  }
+  .icon-check--active{
+    background: rgb(36, 173, 36);
+  }
+  .icon-delete:hover{
+    background: rgb(238, 27, 27);
+  }
+  .title-tarea{
+    margin-inline: 10px;
+    cursor: default;
+  }
+  .title-tarea--complete{
+    text-decoration: line-through;
+  }
+  .icon-svg{
+    width: 15px;
+    height: 15px;
+  }

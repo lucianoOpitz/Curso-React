@@ -1,0 +1,59 @@
+.title-empty-tareas{
+    position: absolute;
+    margin-left: 10px;
+}
+.empty-tareas{
+    position: fixed;
+    bottom: 40px;
+    right: 100px;
+}
+.text-empty-tarea{
+    padding: 20px;
+    border:outset 2px rgb(197, 184, 0);
+    border-radius: 20px;
+    background: linear-gradient(180deg, rgba(63, 141, 0, 0.719), rgba(115, 255, 0, 0.719));
+}
+.box-icon{
+    display: flex;
+    justify-content: flex-end;
+}
+.icon-flecha{
+    width: 50px;
+    height: 50px;
+}
+@media (prefers-reduced-motion: no-preference) {
+    .title-empty-tareas{
+      animation: title-empty-tareas 0.5s linear;
+    }
+    .text-empty-tarea, .icon-flecha{
+        animation: text-empty-tarea 0.5s linear;
+    }
+}
+@keyframes text-empty-tarea {
+    0%{
+        -webkit-transform: scale(0.0); 
+        -moz-transform: scale(0.0);
+        -o-transform: scale(0.0);
+        transform: scale(0.0);
+    }
+    50%{
+        -webkit-transform: scale(1.0, 0.1); 
+        -moz-transform: scale(1.0, 0.1);
+        -o-transform: scale(1.0, 0.1);
+        transform: scale(1.0, 0.1);
+    }
+    100%{
+        -webkit-transform: scale(1.0); 
+        -moz-transform: scale(1.0);
+        -o-transform: scale(1.0);
+        transform: scale(1.0);
+    }
+}
+@keyframes title-empty-tareas{
+    0% {
+        left:-100vw;
+    }
+    100%{
+        left: 0vw;
+    }
+}
