@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/lucianoOpitz/Curso-React/static/css/main.4b9ebafb.css",
+    "main.js": "/lucianoOpitz/Curso-React/static/js/main.398e91a1.js",
+    "static/media/flecha.svg": "/lucianoOpitz/Curso-React/static/media/flecha.eb5bccea9ef6bb4a8f26d9b30343259c.svg",
+    "index.html": "/lucianoOpitz/Curso-React/index.html",
+    "static/media/delete.svg": "/lucianoOpitz/Curso-React/static/media/delete.67697f56fd2f149bc9515a879062ad5c.svg",
+    "static/media/check.svg": "/lucianoOpitz/Curso-React/static/media/check.23109d14544b9bb9b3d5d4e65ea13701.svg",
+    "main.4b9ebafb.css.map": "/lucianoOpitz/Curso-React/static/css/main.4b9ebafb.css.map",
+    "main.398e91a1.js.map": "/lucianoOpitz/Curso-React/static/js/main.398e91a1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4b9ebafb.css",
+    "static/js/main.398e91a1.js"
+  ]
+}
